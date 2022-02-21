@@ -26,14 +26,14 @@ app.get('/', (req, res) => {
 //============
 //CONTROLLERS
 //============
-const quoteController = ('./controllers/quoteController.js')
-app.use('/quotes', quoteController)
+// const quoteController = ('./controllers/quoteController.js')
+// app.use('/quotes', quoteController)
 
-const movieController = ('./controllers/movieController.js')
-app.use('/movies', movieController)
+// const movieController = ('./controllers/movieController.js')
+// app.use('/movies', movieController)
 
-const characterController = ('./controllers/characterController.js')
-app.use('/characters', characterController)
+// const characterController = ('./controllers/characterController.js')
+// app.use('/characters', characterController)
 
 //==============
 //SERVER START 
