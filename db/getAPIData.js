@@ -54,12 +54,12 @@ console.log(characters)
 // .then(success => {
 // 	let collectedData = success.map(res => res.data)
 // 	let stringified = JSON.stringify(collectedData)
-// 	fs.writeFile(__dirname + '/movie.json', stringified, 'utf8', (err) => {
+// 	fs.writeFile(__dirname + '/movieSeeds.json', stringified, 'utf8', (err) => {
 // 		if(err) {
 // 			console.error(err)
 // 		}
 // 		else {
-// 			console.log(`successfully wrote ${collectedData.length} records to db/people.json`)
+// 			console.log(`successfully wrote ${collectedData.length} records to db/movieSeeds.json`)
 // 		}
 // 	}) 
 // })
