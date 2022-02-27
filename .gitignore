@@ -1,8 +1,3 @@
 “node_modules n .env”
 .env
 node_modules
-db/characterSeeds.json
-db/movieSeeds.json
-db/quoteSeeds.json
-db/quoteSeeds2.json
-db/quoteSeeds3.json
