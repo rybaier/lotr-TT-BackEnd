@@ -2,11 +2,12 @@ const mongoose = require('mongoose')
 
 const QuoteSchema = new mongoose.Schema(
     {
+        _id:  String,
         character: String,
         dialog: String,
         id: String,
         movie: String,
-        __id: String
+       
     }
 )
 
